@@ -379,21 +379,18 @@ export default function App() {
     { id: "projects", label: t.sections.projects },
   ];
 
-  // ✅ Carrossel de projetos (2 por vez)
+  // Carrossel de projetos 
   const totalProjects = t.projects.length;
   const [projIndex, setProjIndex] = useState(0);
 
-  // Se trocar idioma, garante index válido
   useEffect(() => {
     setProjIndex((prev) => clampIndex(prev, t.projects.length));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lang]);
 
   const visibleProjects = useMemo(() => {
     if (totalProjects === 0) return [];
     const first = clampIndex(projIndex, totalProjects);
     const second = clampIndex(projIndex + 1, totalProjects);
-    // Se só tiver 1 projeto, não duplica
     if (totalProjects === 1) return [t.projects[first]];
     return [t.projects[first], t.projects[second]];
   }, [projIndex, totalProjects, t.projects]);
@@ -601,7 +598,7 @@ export default function App() {
                   </div>
                 </Section>
 
-                {/* ✅ Projects com carrossel 2 por vez */}
+                {/* Projects */}
                 <Section id="projects" title={t.sections.projects} subtitle={t.subtitles.projects}>
                   <div className="d-flex align-items-stretch gap-2">
                     {/* seta esquerda */}
@@ -615,7 +612,7 @@ export default function App() {
                       ←
                     </button>
 
-                    {/* cards (2 por vez) */}
+                    {/* cards */}
                     <div className="flex-grow-1">
                       <div className="row g-3">
                         {visibleProjects.map((p) => (
@@ -627,12 +624,10 @@ export default function App() {
                               className="border rounded-4 p-3 h-100"
                               style={{
                                 borderColor: "var(--border)",
-                                minHeight: 320, // ✅ ajuda a estabilizar altura
+                                minHeight: 320,
                               }}
                             >
                               <div className="fw-semibold">{p.name}</div>
-
-                              {/* ✅ clamp pra não variar demais a altura */}
                               <div
                                 className="mt-1"
                                 style={{
