@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- monitor -->
+  <rect x="10" y="12" width="44" height="30" rx="7" fill="#111"></rect>
+  <rect x="14" y="16" width="36" height="22" rx="5" fill="#fff" opacity="0.16"></rect>
+
+  <!-- stand -->
+  <rect x="28" y="43" width="8" height="7" rx="2" fill="#111"></rect>
+  <rect x="22" y="50" width="20" height="4" rx="2" fill="#111"></rect>
+
+  <!-- tiny "code" lines -->
+  <rect x="20" y="23" width="14" height="3" rx="1.5" fill="#fff" opacity="0.9"></rect>
+  <rect x="20" y="28" width="22" height="3" rx="1.5" fill="#fff" opacity="0.7"></rect>
+</svg>
