@@ -16,7 +16,6 @@ A personal portfolio with a minimalist look, built to feel like a resume: simple
 
 - [React 19](https://react.dev/)
 - [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [Bootstrap 5](https://getbootstrap.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 
