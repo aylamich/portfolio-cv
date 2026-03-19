@@ -157,11 +157,14 @@ export default function App() {
               "Tailwind",
               "MySQL",
               "MySQL Workbench",
+              "Next.js",
+              "Vite",
+              "Typescript",
             ],
           },
           {
             title: "Tools & Platforms",
-            items: ["Git/GitHub", "VS Code", "Postman", "Power BI", "Power Apps", "Power Automate", "Excel"],
+            items: ["Git/GitHub", "VS Code", "Postman", "Versel", "Jenkins", "Power Apps"],
           },
           {
             title: "Methodologies",
@@ -239,7 +242,7 @@ export default function App() {
           sections: "Seções",
           updated: "Última atualização",
         },
-        updatedValue: "Fev/2026",
+        updatedValue: "March/2026",
 
         sections: {
           about: "Sobre",
@@ -304,11 +307,14 @@ export default function App() {
               "Tailwind",
               "MySQL",
               "MySQL Workbench",
+              "Next.js",
+              "Vite",
+              "Typescript",
             ],
           },
           {
             title: "Ferramentas & Plataformas",
-            items: ["Git/GitHub", "VS Code", "Postman", "Power BI", "Power Apps", "Power Automate", "Excel"],
+            items: ["Git/GitHub", "VS Code", "Postman", "Versel", "Jenkins", "Power Apps"],
           },
           {
             title: "Metodologias",
@@ -407,7 +413,7 @@ export default function App() {
         <div className="container py-3 d-flex align-items-center justify-content-between gap-3">
           <div className="text-truncate">
             <div className="fw-semibold text-truncate d-flex align-items-center gap-2">
-              <span>Portfolio pessoal</span>
+              <span>Portfolio</span>
             </div>
           </div>
 
