@@ -6,8 +6,6 @@
 
 ---
 
-## portfolio-cv
-
 A personal portfolio with a minimalist look, built to feel like a resume: simple, readable, and focused on what actually matters.
 
 ---
