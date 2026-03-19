@@ -66,7 +66,7 @@ export default function App() {
   const toggleTheme = () => setTheme(theme === "dark" ? "light" : "dark");
   const toggleLang = () => setLang(lang === "en" ? "pt" : "en");
 
-  // PDFs em /public
+  // PDFs em /public do curriculo
   const CV_EN = "/cv-en.pdf";
   const CV_PT = "/cv-pt.pdf";
 
